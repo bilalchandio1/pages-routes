@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "next/core-web-vitals",  // Includes optimized rules for Next.js and React
+    "next"                   // Base Next.js rules
+  ],
+  "rules": {
+    "@next/next/no-img-element": "off"  // Disable rule enforcing the use of Next.js <Image />
+  }
+}
